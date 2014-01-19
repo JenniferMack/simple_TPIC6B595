@@ -9,7 +9,17 @@ This setup outputs 8 bits in 128/64/32/16/8/4/2/1 order
                               |  /  /  |  | | | |
                               |  |  |  |  | |  \ \
                              D0 D1 D2 D3 D4 D5 D6 D7
-Currently set up for Uno.
+
+The TPIC6B595 is a medium current shift register, that can sink
+(supply ground to) upto 150ma. Be sure to use resistors on your LEDs,
+because they will pop if the full 150 mA gets run through them.
+
+Make sure to use a pull-up resistor (5K+ ohms) from pin 8 (SRCLR) to
+positive power, otherwise the outputs will not see the data that's fed
+in.
+
+If you plan on have multiple high-current LED on at the same time,
+make sure to tie all three ground pins to 0V.
 
 */
 
