@@ -1,6 +1,6 @@
 /*
 +-~-+-~-+-~-+-~-+-~-+-~-+-~-+-~-+-~-+-~-+
-Sketch: dht_test2.ino
+Sketch: simple_TPIC6B595.ino
 Created on: Sat Jan 18 11:07:11 MST 2014
 +-~-+-~-+-~-+-~-+-~-+-~-+-~-+-~-+-~-+-~-+
 
